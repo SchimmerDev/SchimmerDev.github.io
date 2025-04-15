@@ -1,63 +1,31 @@
-# ROS 2 Humble 설치 가이드 (Windows)
+<h1 align="center">👋 Welcome to SchimmerDev's Study Log</h1>
+
+<p align="center">
+  안녕하세요! 저는 전자전기공학과를 전공하고 인공지능(AI)에 관심이 많은 대학생입니다.<br/>
+  현재는 독일에서 교환학생으로 석사 수업을 들으며 폭넓은 지식을 탐험 중입니다. 🇩🇪⚡️🤖
+</p>
+
+---
+
+## ✨ 소개
+
+- 🎓 한국 기준 대학교 3학년
+- 🧠 관심 분야: AI · 머신러닝 · 임베디드 시스템 · 뇌-컴퓨터 인터페이스
+- 🌍 현재 위치: 독일 Bonn-Rhein-Sieg University of Applied Sciences
+- 📘 이 저장소는 **제 공부 기록과 실험 정리**, 그리고 **아이디어 아카이브**입니다
+
+---
+
+## 🛠️ 주로 다루는 주제
+
+- `ROS 2`
+- `Python`, `C++` 기반 AI 프로젝트
+- `논문 리뷰` 및 실험 결과 정리
+- 개인 `TIL (Today I Learned)` 및 마이크로 블로그 포스트
 
 
 ---
 
-## 📦 1. Chocolatey 설치
-
-> 관리자 권한 PowerShell에서 아래 명령어 실행
-
-```
-
-Set-ExecutionPolicy Bypass -Scope Process -Force; `
-[System.Net.ServicePointManager]::SecurityProtocol = `
-[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
-iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-
-```
-
----
-
-## 🔧 2. 필수 툴 설치
-powershell에서
-
-```
-choco install -y git cmake python visualstudio2022buildtools
-```
-
-설치 후 시스템 재시작
-
----
-
-## 📥 3. ROS 2 Humble 설치
-공식 GitHub 릴리즈 페이지에서 .msi 설치파일 다운로드
-
-예: ros2-humble-*-windows-release-amd64.msi 설치
-
----
-
-## 🛠️ 4. 환경 변수 설정
-Windows 환경 변수 Path에 다음 경로 추가:
-
-vbnet에서
-```
-C:\dev\ros2_humble\bin
-C:\dev\ros2_humble\lib
-```
----
-
-⚙️ 5. ROS 2 실행
-Visual Studio Developer Command Prompt (x64) 실행
-
-
-cmd에서
-```
-call C:\dev\ros2_humble\local_setup.bat
-ros2 --version
-```
-정상적으로 버전 정보가 출력되면 설치 완료입니다 🎉
-
----
-
-## 🔗 참고 링크
-공식 문서: docs.ros.org (Windows Install)
+<p align="center">
+  ✨ 꾸준함은 성장의 비결입니다 ✨
+</p>
